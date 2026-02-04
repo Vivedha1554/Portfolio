@@ -106,3 +106,17 @@ hr {
   font-weight: bold;
   border-radius: 10px 0 0 10px;
 }
+
+/* Projects Cards */
+.project-card {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 15px 0;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  text-align: left;
+}
+
+.project-card h3 {
+  margin-top: 0;
+}
