@@ -82,6 +82,17 @@ hr {
   box-shadow: 0 4px 12px rgba(0,0,0,0.08);
 }
 
+/* FIX: spacing under download button */
+.resume-card .btn {
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+.social-links {
+  margin-top: 10px;
+  font-size: 16px;
+}
+
 .social-links a {
   color: #0073e6;
   font-weight: bold;
@@ -128,44 +139,4 @@ hr {
   margin: 30px auto;
   padding: 20px;
   border-radius: 12px;
-}
-
-.skill {
-  margin-bottom: 20px;
-}
-
-.skill span {
-  font-weight: bold;
-  display: block;
-  margin-bottom: 5px;
-}
-
-.progress {
-  background-color: #e0e0e0;
-  border-radius: 10px;
-  overflow: hidden;
-  height: 25px;
-}
-
-.progress-bar {
-  background-color: #0073e6;
-  height: 100%;
-  color: #fff;
-  text-align: right;
-  padding-right: 10px;
-  line-height: 25px;
-  font-weight: bold;
-  border-radius: 10px 0 0 10px;
-}
-
-/* Responsive */
-@media screen and (max-width: 768px) {
-  .hero-card, .resume-card, .project-card, .skills-container {
-    margin: 30px 10px;
-    padding: 25px;
-  }
-  .btn {
-    display: block;
-    margin: 10px auto;
-  }
 }
