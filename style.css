@@ -82,7 +82,6 @@ hr {
   box-shadow: 0 4px 12px rgba(0,0,0,0.08);
 }
 
-/* FIX: spacing under download button */
 .resume-card .btn {
   display: inline-block;
   margin-bottom: 20px;
@@ -103,11 +102,15 @@ hr {
   color: #005bb5;
 }
 
-/* Profile Image */
+/* UPDATED Profile Image */
 .profile-pic {
+  display: block;
   width: 150px;
+  height: 150px;
+  object-fit: cover;
   border-radius: 50%;
-  margin-top: 20px;
+  margin: 15px auto;
+  border: 3px solid #fff;
 }
 
 /* Project Cards */
