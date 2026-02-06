@@ -2,39 +2,47 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Vivedha's Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vivedha | Portfolio</title>
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
   <!-- Navigation -->
-  <nav>
-    <a href="index.html">Home</a> |
-    <a href="about.html">About Me</a> |
-    <a href="projects.html">Projects</a> |
-    <a href="skills.html">Skills</a>
+  <nav class="navbar">
+    <div class="nav-container">
+      <h2 class="logo">Vivedha</h2>
+      <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="projects.html">Projects</a>
+        <a href="skills.html">Skills</a>
+      </div>
+    </div>
   </nav>
-  <hr>
 
   <!-- Hero Section -->
   <section class="hero-card gradient-bg hero-layout">
 
-    <!-- Image -->
     <div class="hero-img">
       <img src="profile.png" alt="Vivedha Profile Picture">
     </div>
 
-    <!-- Text -->
     <div class="hero-content">
       <h1>Hello, I’m Vivedha</h1>
-      <p>Recent Graduate | Aspiring Web Developer</p>
+      <h3>Aspiring Web Developer</h3>
+
       <p>
-        I build web applications, learn new technologies,
-        and showcase my projects online.
+        I am a recent graduate passionate about building modern,
+        responsive web applications and continuously learning
+        new technologies in web development.
       </p>
 
-      <a href="about.html" class="btn">About Me</a>
-      <a href="projects.html" class="btn primary">View Projects</a>
+      <div class="hero-buttons">
+        <a href="about.html" class="btn">About Me</a>
+        <a href="projects.html" class="btn primary">View Projects</a>
+      </div>
     </div>
 
   </section>
@@ -48,10 +56,15 @@
     </a>
 
     <div class="social-links">
-      <a href="https://github.com/vivedha">GitHub</a> |
-      <a href="https://www.linkedin.com/in/vivedha-profile">LinkedIn</a>
+      <a href="https://github.com/vivedha" target="_blank">GitHub</a>
+      <a href="https://www.linkedin.com/in/vivedha-profile" target="_blank">LinkedIn</a>
     </div>
   </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>© 2026 Vivedha | Portfolio</p>
+  </footer>
 
 </body>
 </html>
