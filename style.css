@@ -15,26 +15,28 @@ nav a {
   text-decoration: none;
   color: #2563eb;
   font-weight: bold;
-  margin: 0 10px;
+  margin: 0 12px;
 }
 
+/* Divider */
 hr {
   border: 1px solid #ddd;
+  margin: 0;
 }
 
 /* HERO SECTION */
 .hero {
   background: linear-gradient(135deg, #4f46e5, #2563eb);
   color: white;
-  padding: 60px 20px;
+  padding: 70px 20px;
 }
 
 .hero-container {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 50px;
-  max-width: 900px;
+  gap: 60px;
+  max-width: 950px;
   margin: auto;
 }
 
@@ -53,7 +55,7 @@ hr {
 }
 
 .hero-text h1 {
-  font-size: 36px;
+  font-size: 38px;
   margin-bottom: 10px;
 }
 
@@ -63,8 +65,9 @@ hr {
   opacity: 0.95;
 }
 
-/* Buttons (Hero buttons) */
+/* Buttons */
 .btn {
+  display: inline-block;
   padding: 10px 20px;
   border-radius: 6px;
   margin-right: 10px;
@@ -73,6 +76,10 @@ hr {
   border: 1px solid white;
   color: white;
   transition: 0.2s ease;
+}
+
+.btn:hover {
+  transform: translateY(-2px);
 }
 
 .btn.primary {
@@ -91,7 +98,7 @@ hr {
   box-shadow: 0 4px 12px rgba(0,0,0,0.08);
 }
 
-/* Download button (inside resume card only) */
+/* Download button (resume section only) */
 .resume-card .btn.primary {
   background-color: #2563eb;
   color: white;
@@ -115,10 +122,16 @@ hr {
   margin: 0 8px;
 }
 
-/* Mobile */
+/* Mobile layout */
 @media (max-width: 768px) {
   .hero-container {
     flex-direction: column;
     text-align: center;
+    gap: 25px;
+  }
+
+  .hero-photo {
+    width: 180px;
+    height: 180px;
   }
 }
