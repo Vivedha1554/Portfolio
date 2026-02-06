@@ -30,15 +30,16 @@ hr {
 }
 
 .hero-container {
-  max-width: 900px;
-  margin: auto;
   display: flex;
   align-items: center;
-  gap: 40px;
+  justify-content: center;
+  gap: 50px;
+  max-width: 900px;
+  margin: auto;
 }
 
-/* Image LEFT */
-.hero-img img {
+/* Profile Image */
+.hero-photo {
   width: 220px;
   height: 220px;
   border-radius: 50%;
@@ -46,7 +47,7 @@ hr {
   border: 5px solid white;
 }
 
-/* Text RIGHT */
+/* Text */
 .hero-text {
   max-width: 500px;
 }
@@ -100,35 +101,4 @@ hr {
     flex-direction: column;
     text-align: center;
   }
-}
-
-/* existing CSS above */
-
-
-/* HERO FIXED LAYOUT */
-.hero {
-  background: linear-gradient(135deg, #4f46e5, #2563eb);
-  color: white;
-  padding: 60px 20px;
-}
-
-.hero-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 50px;
-  max-width: 900px;
-  margin: auto;
-}
-
-.hero-photo {
-  width: 220px;
-  height: 220px;
-  border-radius: 50%;
-  object-fit: cover;
-  border: 5px solid white;
-}
-
-.hero-text {
-  max-width: 500px;
 }
