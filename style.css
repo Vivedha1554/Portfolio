@@ -63,7 +63,7 @@ hr {
   opacity: 0.95;
 }
 
-/* Buttons */
+/* Buttons (Hero buttons) */
 .btn {
   padding: 10px 20px;
   border-radius: 6px;
@@ -72,6 +72,7 @@ hr {
   font-weight: bold;
   border: 1px solid white;
   color: white;
+  transition: 0.2s ease;
 }
 
 .btn.primary {
@@ -90,27 +91,28 @@ hr {
   box-shadow: 0 4px 12px rgba(0,0,0,0.08);
 }
 
-/* FIXED DOWNLOAD BUTTON */
+/* Download button (inside resume card only) */
 .resume-card .btn.primary {
   background-color: #2563eb;
   color: white;
   border: none;
-  display: inline-block;
-  margin-top: 10px;
-  margin-bottom: 18px; /* gap below button */
+  margin-top: 15px;
+  margin-bottom: 20px;
 }
 
 .resume-card .btn.primary:hover {
   background-color: #1e4fd1;
 }
 
+/* Social links */
 .social-links {
-  margin-top: 10px;
+  margin-top: 5px;
 }
 
 .social-links a {
   color: #2563eb;
   font-weight: bold;
+  margin: 0 8px;
 }
 
 /* Mobile */
