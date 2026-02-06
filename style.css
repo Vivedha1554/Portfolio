@@ -101,3 +101,34 @@ hr {
     text-align: center;
   }
 }
+
+/* existing CSS above */
+
+
+/* HERO FIXED LAYOUT */
+.hero {
+  background: linear-gradient(135deg, #4f46e5, #2563eb);
+  color: white;
+  padding: 60px 20px;
+}
+
+.hero-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  max-width: 900px;
+  margin: auto;
+}
+
+.hero-photo {
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 5px solid white;
+}
+
+.hero-text {
+  max-width: 500px;
+}
