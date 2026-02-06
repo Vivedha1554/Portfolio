@@ -82,12 +82,30 @@ hr {
 /* Resume card */
 .resume-card {
   background-color: white;
-  padding: 25px;
+  padding: 30px;
   border-radius: 12px;
   max-width: 700px;
-  margin: 30px auto;
+  margin: 40px auto;
   text-align: center;
   box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+/* FIXED DOWNLOAD BUTTON */
+.resume-card .btn.primary {
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  display: inline-block;
+  margin-top: 10px;
+  margin-bottom: 18px; /* gap below button */
+}
+
+.resume-card .btn.primary:hover {
+  background-color: #1e4fd1;
+}
+
+.social-links {
+  margin-top: 10px;
 }
 
 .social-links a {
