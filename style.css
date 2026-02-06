@@ -1,137 +1,137 @@
 body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  background-color: #f4f7fb;
-  color: #222;
+font-family: Arial, sans-serif;
+margin: 0;
+background-color: #f4f7fb;
+color: #222;
 }
 
 /* Navigation */
 nav {
-  text-align: center;
-  padding: 15px 0;
+text-align: center;
+padding: 15px 0;
 }
 
 nav a {
-  text-decoration: none;
-  color: #2563eb;
-  font-weight: bold;
-  margin: 0 12px;
+text-decoration: none;
+color: #2563eb;
+font-weight: bold;
+margin: 0 12px;
 }
 
 /* Divider */
 hr {
-  border: 1px solid #ddd;
-  margin: 0;
+border: 1px solid #ddd;
+margin: 0;
 }
 
 /* HERO SECTION */
 .hero {
-  background: linear-gradient(135deg, #4f46e5, #2563eb);
-  color: white;
-  padding: 70px 20px;
+background: linear-gradient(135deg, #4f46e5, #2563eb);
+color: white;
+padding: 70px 20px;
 }
 
 .hero-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 60px;
-  max-width: 950px;
-  margin: auto;
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 60px;
+max-width: 950px;
+margin: auto;
 }
 
 /* Profile Image */
 .hero-photo {
-  width: 220px;
-  height: 220px;
-  border-radius: 50%;
-  object-fit: cover;
-  border: 5px solid white;
+width: 220px;
+height: 220px;
+border-radius: 50%;
+object-fit: cover;
+border: 5px solid white;
 }
 
 /* Text */
 .hero-text {
-  max-width: 500px;
+max-width: 500px;
 }
 
 .hero-text h1 {
-  font-size: 38px;
-  margin-bottom: 10px;
+font-size: 38px;
+margin-bottom: 10px;
 }
 
 .subtitle {
-  font-size: 18px;
-  margin-bottom: 15px;
-  opacity: 0.95;
+font-size: 18px;
+margin-bottom: 15px;
+opacity: 0.95;
 }
 
 /* Buttons */
 .btn {
-  display: inline-block;
-  padding: 10px 20px;
-  border-radius: 6px;
-  margin-right: 10px;
-  text-decoration: none;
-  font-weight: bold;
-  border: 1px solid white;
-  color: white;
-  transition: 0.2s ease;
+display: inline-block;
+padding: 10px 20px;
+border-radius: 6px;
+margin-right: 10px;
+text-decoration: none;
+font-weight: bold;
+border: 1px solid white;
+color: white;
+transition: 0.2s ease;
 }
 
 .btn:hover {
-  transform: translateY(-2px);
+transform: translateY(-2px);
 }
 
 .btn.primary {
-  background-color: white;
-  color: #2563eb;
+background-color: white;
+color: #2563eb;
 }
 
 /* Resume card */
 .resume-card {
-  background-color: white;
-  padding: 30px;
-  border-radius: 12px;
-  max-width: 700px;
-  margin: 40px auto;
-  text-align: center;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+background-color: white;
+padding: 30px;
+border-radius: 12px;
+max-width: 700px;
+margin: 40px auto;
+text-align: center;
+box-shadow: 0 4px 12px rgba(0,0,0,0.08);
 }
 
 /* Download button (resume section only) */
 .resume-card .btn.primary {
-  background-color: #2563eb;
-  color: white;
-  border: none;
-  margin-top: 15px;
-  margin-bottom: 20px;
+background-color: #2563eb;
+color: white;
+border: none;
+margin-top: 20px;
+margin-bottom: 35px; /* increased spacing */
 }
 
 .resume-card .btn.primary:hover {
-  background-color: #1e4fd1;
+background-color: #1e4fd1;
 }
 
 /* Social links */
 .social-links {
-  margin-top: 5px;
+margin-top: 10px;
 }
 
 .social-links a {
-  color: #2563eb;
-  font-weight: bold;
-  margin: 0 8px;
+color: #2563eb;
+font-weight: bold;
+margin: 0 8px;
 }
 
 /* Mobile layout */
 @media (max-width: 768px) {
-  .hero-container {
-    flex-direction: column;
-    text-align: center;
-    gap: 25px;
-  }
+.hero-container {
+flex-direction: column;
+text-align: center;
+gap: 25px;
+}
 
-  .hero-photo {
-    width: 180px;
-    height: 180px;
-  }
+.hero-photo {
+width: 180px;
+height: 180px;
+}
 }
