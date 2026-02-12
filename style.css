@@ -157,4 +157,29 @@ hr {
   border-radius: 50%;
   margin: 20px 0;
 }
+/* ABOUT PAGE */
+.about-card {
+  background-color: white;
+  padding: 40px;
+  border-radius: 12px;
+  max-width: 650px;
+  margin: 60px auto;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+.about-photo {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 20px 0;
+  border: 4px solid #2563eb;
+}
+
+.about-card p {
+  line-height: 1.6;
+  margin-bottom: 12px;
+}
+
 
