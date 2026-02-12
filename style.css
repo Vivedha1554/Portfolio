@@ -267,4 +267,30 @@ body {
     text-align: center;
   }
 }
+/* PROJECTS PAGE */
+.projects-section {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.project-grid {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.project-card {
+  background: white;
+  padding: 20px;
+  width: 250px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  transition: 0.2s;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+}
 
