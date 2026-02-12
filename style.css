@@ -137,3 +137,24 @@ hr {
     height: 180px;
   }
 }
+/* About page card */
+.hero-card {
+  max-width: 800px;
+  margin: 40px auto;
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+.gradient-bg {
+  background: linear-gradient(135deg, #eef2ff, #f8fafc);
+}
+
+.profile-pic {
+  width: 180px;
+  border-radius: 50%;
+  margin: 20px 0;
+}
+
