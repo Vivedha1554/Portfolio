@@ -387,5 +387,35 @@ body {
 .demo-btn:hover {
   background-color: #047857;
 }
+/* MOBILE RESPONSIVENESS */
+@media (max-width: 768px) {
+
+  nav {
+    font-size: 14px;
+  }
+
+  .project-grid {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .project-card {
+    width: 90%;
+  }
+
+  .hero-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .about-container {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
 
 
