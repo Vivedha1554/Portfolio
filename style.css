@@ -471,6 +471,21 @@ img {
 @keyframes fillBar {
   from { width: 0; }
 }
+.progress {
+  background: #e5e7eb;
+  border-radius: 20px;
+  overflow: hidden;
+  margin-top: 10px;
+}
+
+.progress-bar {
+  background: #2563eb;
+  color: white;
+  padding: 5px;
+  border-radius: 20px;
+  font-size: 12px;
+  text-align: right;
+}
 
 
 
