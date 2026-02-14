@@ -358,5 +358,31 @@ body {
 .demo-btn:hover {
   background-color: #047857;
 }
+.project-card {
+  background: #ffffff;
+  padding: 25px;
+  border-radius: 12px;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+.btn {
+  display: inline-block;
+  padding: 10px 18px;
+  background-color: #2563eb;
+  color: white;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+  background-color: #1e40af;
+}
 
 
