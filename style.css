@@ -434,13 +434,15 @@ img {
 .skill-card {
   background: white;
   padding: 20px;
-  width: 260px;
   border-radius: 12px;
-  box-shadow: 0 6px 18px rgba(0,0,0,0.08);
   text-align: left;
-  color: #111; /* fixes light text issue */
+  transition: transform 0.3s, box-shadow 0.3s;
 }
 
+.skill-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+}
 
 .skill-card h3 {
   color: #111;
@@ -479,12 +481,23 @@ img {
 }
 
 .progress-bar {
-  background: #2563eb;
+  height: 20px;
   color: white;
-  padding: 5px;
-  border-radius: 20px;
   font-size: 12px;
   text-align: right;
+  padding-right: 8px;
+  line-height: 20px;
+  border-radius: 20px;
+  animation: loadBar 1.5s ease-in-out;
+}
+/* individual skill widths */
+.html { width: 90%; background: #e34c26; }
+.css { width: 85%; background: #264de4; }
+.js { width: 70%; background: #f7df1e; color: black; }
+.git { width: 75%; background: #333; }
+
+@keyframes loadBar {
+  from { width: 0; }
 }
 
 
