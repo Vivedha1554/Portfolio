@@ -434,13 +434,16 @@ img {
 .skill-card {
   background: white;
   padding: 20px;
-  width: 250px;
+  width: 260px;
   border-radius: 12px;
   box-shadow: 0 6px 18px rgba(0,0,0,0.08);
   text-align: left;
+  color: #111; /* fixes light text issue */
 }
 
+
 .skill-card h3 {
+  color: #111;
   margin-bottom: 10px;
 }
 
