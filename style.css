@@ -334,3 +334,19 @@ body {
   font-size: 36px;
   margin-bottom: 20px;
 }
+.btn {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 8px 15px;
+  background-color: #2563eb;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  font-size: 14px;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background-color: #1e40af;
+}
+
