@@ -450,11 +450,24 @@ img {
   height: 8px;
   overflow: hidden;
 }
-
 .skill-fill {
-  background: #2563eb;
   height: 100%;
   border-radius: 10px;
+  width: 0;
+  background: #2563eb;
+  animation: fillBar 1.5s forwards;
 }
+
+/* Individual skill levels */
+.skill-fill.html { width: 90%; }
+.skill-fill.css { width: 85%; }
+.skill-fill.js { width: 70%; }
+.skill-fill.git { width: 75%; }
+
+/* Animation */
+@keyframes fillBar {
+  from { width: 0; }
+}
+
 
 
