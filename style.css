@@ -370,5 +370,22 @@ body {
   transform: translateY(-8px);
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
 }
+.project-card img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+.project-links {
+  margin-top: 10px;
+}
+
+.demo-btn {
+  background-color: #10b981;
+  margin-left: 8px;
+}
+
+.demo-btn:hover {
+  background-color: #047857;
+}
 
 
